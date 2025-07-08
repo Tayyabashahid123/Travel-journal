@@ -5,7 +5,7 @@ export default function Entry(props) {
   return (
     <>
       <article className="entry"> 
-        <img src={props.imgSrc} alt={props.imgAlt} className="image" /> 
+        <img src={props.img.src} alt={props.img.alt} className="image" /> 
 
         <div className="entry-content">
           <div className="map">
